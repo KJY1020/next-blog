@@ -1,4 +1,4 @@
-const blogList = [{
+export const blogList = [{
     id: 1,
     title: 'NextJS 쓰는 법',
     content: 'NextJS 개편하다 존나 좋아',
@@ -13,6 +13,3 @@ const blogList = [{
     writer: 'KJY1020',
 },
 ]
-export default function handler(req, res) {
-    res.json(blogList)
-}
