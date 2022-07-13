@@ -21,11 +21,7 @@ return ( <div > 블로그 목록
     {blogList.map((blog) => {
         return (
             <div key={blog.id} className = {styles.blog} >
-                <div>{blog.id}</div>
                 <div>{blog.title}</div>
-                <div>{blog.content}</div>
-                <div>{blog.readTime}</div>
-                <div>{blog.writer}</div>
             </div>
         )
     })}
